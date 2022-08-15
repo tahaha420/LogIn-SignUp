@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon"
+        href="https://cdn-icons.flaticon.com/png/512/5654/premium/5654864.png?token=exp=1660481951~hmac=c8d24bc7ad60a2487dab6e21ba407fc2">
+    <script src="./app.js"></script>
+</head>
+<body>
+    <div class="signupbox">
+        <form onsubmit="checkpw(); return false">
+            <h2>Create New Account</h2>
+            <div class="boxes">
+                <input type="text" name="username" id="uname" placeholder="Username" required ><br>
+                <input type="text" name="email" id="email" placeholder="Email" required ><br>
+                <input type="password" name="pword" id="pword" placeholder="Password" required ><br>
+                <input type="password" name="cnfmpassword" id="cword" placeholder="Confirm Password" required>
+                <input type="checkbox" name="tnc" id="tnc" required>
+                <label for="tnc">I agree to the terms and conditions </label>
+            </div>
+            <input type="submit" value="Sign Up" id="supbtn" >
+        </form>
+        <p id="demo"></p>
+                
+        <a href="./login.html" id="anc">Already have an account? Log In</a>
+    </div>
+    <!-- 
+<footer>
+    <p> <b>Developer:</b>Muhammad Taha Pasha </p>
+</footer> -->
+</body>
+
+</html>
